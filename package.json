@@ -19,7 +19,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "test:junit": "JEST_JUNIT_OUTPUT_NAME='.jest-test-results.xml' jest --ci --env=jsdom --reporters=jest-junit --testTimeout=20000",
+        "test:junit": "JEST_JUNIT_OUTPUT_NAME='.jest-test-results.xml' react-scripts test --ci --env=jsdom --reporters=jest-junit --testTimeout=20000",
         "eject": "react-scripts eject"
     },
     "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
